@@ -5,9 +5,15 @@
     background-color:whitesmoke;
 }
 body{
-    width: 1400px;
-    height: 4547px;
+ 
 
+}
+
+.wrapper {
+
+    max-width:1140px;
+    margin-right:auto;
+    margin-left:auto;
 }
 li, a, button{
     font-family: ".SF NS Display";
@@ -57,19 +63,13 @@ button:hover{
 }
 
 .openp{
-    
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%,-50%);
-   width: 1400px;
    padding: 20px;
-   box-sizing: border-box;
    border-radius: 5px;
    display: flex;
+   flex-direction: row-reverse;
 }
 .openp .image{
-    width: 579px;
+
     flex: 0 0 579px;
 }
 .openp .image img{
@@ -109,12 +109,61 @@ p{
     float: right;
    
 }
-.options{
+.options  .images{
     list-style: none;
+
+}
+.options{
+    display:flex;
 }
 .options li{
 
 color: black;
 display: inline-block;
 padding: 0px 20px;
+
+
+}
+
+.container {
+    height: 224px ;
+
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+  
+}
+
+.options p{
+
+    font-family:".SF NS Display";
+    font-size: 15px;
+    color: #544837;
+}
+
+}
+.altlas{
+    border: 0.5px;
+    border-color: #FF4F4F;
+ 
+
+}
+.atlas .biohazard .shapes .icon{
+    padding: 5px;
+}
+  
+}
+.about{
+
+
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+}
+.about li{
+
+    color: #544837;
+    list-style-type: none;
 }

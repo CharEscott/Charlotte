@@ -1,0 +1,39 @@
+.html{
+    width: 1400px;
+    height: 4547px;
+}
+.container{
+    justify-content: end;
+}
+.header{
+    display: block;
+    width: 85px;
+    height: 33px;
+    position: relative;
+    background-image: url(https://projects.invisionapp.com/d/main#/console/19413115/405565965/inspect);
+    background-repeat: no-repeat;
+    background-size: 50%;
+
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a {
+display: block;
+padding: 14px;
+background-color: #FF4F4F;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    height: 46px;
+width: 102px;
+background-color: #FF4F4F;
+color: white;
+}

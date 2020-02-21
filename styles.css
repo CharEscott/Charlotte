@@ -152,7 +152,10 @@ p{
 
 }
 .options{
-    display:flex;
+    width: 1200px;
+    display: flex;
+    justify-content: flex-start;
+    margin-inline-start: 10%;
 }
 .options li{
 
@@ -191,7 +194,7 @@ padding: 0px 20px;
     box-sizing: border-box;
     border-radius: 5px;
     display:flex;
-    flex-direction:row-reverse;
+    flex-direction:row;
     
 }
 
@@ -268,4 +271,34 @@ background-color:white;
     height: 15px;
     padding: 1px;
 
+}
+.head{
+    color: #544837;
+    font-family: "muli";
+    font-size: 17px;
+}
+.buttons{
+    padding:10px;
+}
+.footer{
+    background-color: #FF4F4F;
+    display:flex;
+    flex-direction: column;
+    position: bottom;
+    width:100%;
+}
+.titles{
+color:#544837;
+font-size: 14px;
+}
+.titlerows{
+  display: inline-flex;
+  flex-direction: row;
+}
+.content, li{
+color: #FF4F4F;
+font-size: 12px;
+}
+.legal .pages .quicklinks{
+    display: inline-block;
 }

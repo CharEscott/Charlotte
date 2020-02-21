@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color:whitesmoke;
+    font-family: "muli";
+  
 }
 
 .wrapper {
@@ -11,9 +12,18 @@
     margin-right:auto;
     margin-left:auto;
 }
-li, a, button{
-    font-family: ".SF NS Display";
-    font-size: 16px;
+
+body{
+    background: url(/inspect/Protips/Design/Protips_New/Header/Oval.svg) no-repeat;
+    background-position: top;
+    background-position-x: 600px;
+    background-position-y: -80px;
+
+ 
+}
+.nav__links li, a, button{
+    font-family: "muli";
+    font-size: 14px;
     color: white;
     text-decoration: none;
 
@@ -44,7 +54,39 @@ header{
 .nav__links li a:hover{
     color: black;
 }
-button{
+.signUp {
+    margin-left: 20px;
+    padding:9px 25px;
+    background-color:black;
+    border: 2.5px;
+    border-color:black;
+    border-style: solid;
+
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.signUp:hover{
+    color:white;
+    border-color:white;
+    background: #FF4F4F;
+    
+}
+.signIn {
+    margin-left: 20px;
+    padding:9px 25px;
+background-color: #FF4F4F;
+    border: 2.5px;
+    border-color: white;
+    border-style: solid;
+
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.signIn:hover{
+    color: black;
+    border-color: black;
+}
+.button{
     margin-left: 20px;
     padding:9px 25px;
     background-color:rgba(255,79,79,1);
@@ -54,7 +96,7 @@ button{
     transition: all 0.3s ease 0s;
 
 }
-button:hover{
+.button:hover{
     background-color: rgba(255,79,79,0.8);
 }
 
@@ -84,7 +126,7 @@ padding: 0;
     text-align: justify;
 }
 p{
-    font-family: ".SF NS Display";
+    
     font-size: 18px;
     color: #544837;
     text-decoration: none;
@@ -120,7 +162,9 @@ padding: 0px 20px;
 
 
 }
-
+.options h2{
+    color:black;
+}
 .container {
     height: 224px ;
 
@@ -133,34 +177,31 @@ padding: 0px 20px;
 
 .options p{
 
-    font-family:".SF NS Display";
+   
     font-size: 15px;
     color: #544837;
 }
 
 
-.altlas{
-    border: 0.5px;
-    border-color: #FF4F4F;
- 
-
-}
-.atlas .biohazard .shapes .icon{
-    padding: 5px;
-}
   
-.about{
+ .about{
 
 
     padding: 20px;
     box-sizing: border-box;
     border-radius: 5px;
+    display:flex;
+    flex-direction:row-reverse;
     
 }
-.about li{
 
-    color: #544837;
-    list-style-type: none;
+
+
+.list{
+    display:inline-block
+}
+.list li{
+    list-style: none;
 }
 .icon:hover h2{
     cursor: pointer;
@@ -189,4 +230,42 @@ padding: 0px 20px;
     cursor: pointer;
     background-color: #FF4F4F;
     transition: all 0.3s ease 0;
+}
+.Knowmore{
+
+        margin-left: 20px;
+        padding:9px 25px;
+    background-color: #FF4F4F;
+        border: 2.5px;
+        border-color:#FF4F4F;
+        border-style: solid;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+}
+
+    .Knowmore:hover{
+        color: black;
+        border-color:white;
+}
+.Watchvid{
+
+    margin-left: 20px;
+    padding:9px 25px;
+background-color:white;
+    border: 2.5px;
+    border-color:white;
+    border-style: solid;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color:#FF4F4F;
+}
+.Watchvid:hover{
+    color: black;
+    border-color:#FF4F4F;
+}
+.play{
+    width: 15px;
+    height: 15px;
+    padding: 1px;
+
 }
